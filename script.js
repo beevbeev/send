@@ -21,7 +21,7 @@ document.getElementById('updateForm').addEventListener('submit', async function(
 
     const token = document.getElementById('githubToken').value.trim();
     const content = document.getElementById('content').value.trim();
-    const owner = 'davudsedft';
+    const owner = 'beevbeev';
 
     const apiUrl = `https://api.github.com/repos/${owner}/${repoName}/contents/${filePath}`;
 
